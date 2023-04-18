@@ -1,0 +1,16 @@
+{
+  "name": "python-presents",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "reveal.js": "^4.5.0"
+  }
+}
