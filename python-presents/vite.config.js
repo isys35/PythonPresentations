@@ -3,6 +3,7 @@ const { resolve } = require('path')
 const { defineConfig } = require('vite')
 
 module.exports = defineConfig({
+  base: "/PythonPresents/",
   build: {
     rollupOptions: {
       input: {
@@ -10,6 +11,5 @@ module.exports = defineConfig({
         nested: resolve(__dirname, 'presents/module1/lesson1/index.html')
       }
     },
-    outDir: "../docs"
   }
 })
