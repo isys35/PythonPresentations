@@ -10,6 +10,6 @@ module.exports = defineConfig({
         nested: resolve(__dirname, 'presents/module1/lesson1/index.html')
       }
     },
-    outDir: "pages"
+    outDir: "../docs"
   }
 })
