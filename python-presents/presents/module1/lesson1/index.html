@@ -54,6 +54,156 @@
                     <pre><code class="python" data-code="code/1.py"></code></pre>
                     <pre><code class="shell" data-code="code/1.sh"></code></pre>
                 </section>
+                <section>
+                    <p>Исполняемая программа</p>
+                    <pre><code class="python" data-code="code/3.py"></code></pre>
+                </section>
+            </section>
+             <section id="ide">
+                <section>
+                    <p>IDE (Integrated Development Environment)</b> – это среда разработки, которая используется разработчиками для создания различного программного обеспечения.</p>
+                </section>
+                <section>
+                    <p>Популярные IDE для Python:</p>
+                    <ul class="ide-list">
+                        <li><span style="color: green"><b>PyCharm</b></span><img src="images/pycharm.svg" alt="" width="40"></li>
+                        <li><span>Visual Studio Code</span></li>
+                        <li><span>Sublime Text</span></li>
+                    </ul>
+                </section>
+            </section>
+             <section id="pip">
+                <p><b>pip (Package Installer for Python)</b></p>
+                    <pre><code data-trim  data-line-numbers="|1|2|3|">
+                        pip install requests # установка пакета
+                        pip list # список пакетов
+                        pip uninstall requests # удаление пакета
+                    </code>
+                </pre>
+             </section>
+            <section id="poetry">
+                <section>
+                    <p>Виртуальное окружение в Python — способ изолировать зависимости (пакеты) для определённого проекта.
+                    </p>
+                </section>
+                <section>
+                    <p>Создание виртуального окружения с помощью <b>venv</b></p>
+                    <pre><code data-trim  data-line-numbers="|1|2|3|4|">
+                        mkdir lesson1
+                        cd project
+                        python -m venv venv
+                        venv\Scripts\activate.bat
+                    </code></pre>
+                </section>
+                <section>
+                    <img src="images/venv.png" alt="" width="800">
+                    <p>Обозначение на скриншоте сверху говорит о том, что виртуальное окружение активировано.</p>
+                </section>
+                <section>
+                    <p>Работа с poetry</p>
+                    <a href="https://python-poetry.org/docs/">Официальный сайт</a>
+                    <p>Основные комманды:</p>
+                    <pre><code data-trim>
+                        poetry new poetry-demo # Создание проекта poetry-demo
+                        poetry init # Создание в уже существующем проекте
+                        poetry shell # Активация виртуальной среды
+                        deactivate # Деактивация виртуальной среды
+                    </code></pre>
+                </section>
+                <section>
+                    <p>Работа с зависимостями в poetry:</p>
+                    <pre><code data-trim>
+                        poetry add requests # установка библиотеки
+                        poetry install # для установики зависимостей проекта
+                        poetry update # для обновления версий зависимостей
+                        poetry show # просмотр зависимостей проекта
+                    </code></pre>
+                </section>
+                <section>
+                    <p>Создание виртуальных окружений с помощью PyCharm</p>
+                    <img src="images/pycharmpoetry.png" alt="" width="600">
+                </section>
+            </section>
+            <section id="structure">
+                <section>
+                    <p>Стили наименований</p>
+                    <p>Функции</p>
+                    <pre><code class="python" data-trim>
+                            def function():
+                                pass
+
+                            def my_function():
+                                pass
+                        </code></pre>
+                </section>
+                <section>
+                    <p>Переменные</p>
+                    <pre><code class="python" data-trim>
+                        var = 16
+                        my_variable = "variable"
+                    </code></pre>
+                    <p>Классы</p>
+                    <pre><code class="python" data-trim>
+                        class Model:
+                            pass
+
+
+                        class MyClass:
+                            pass
+                    </code></pre>
+                </section>
+                <section>
+                    <p>Методы</p>
+                    <pre><code class="python" data-trim>
+                        class Model:
+
+                            def class_method(self):
+                                pass
+
+                            def method(self, name):
+                                pass
+                    </code></pre>
+                    <p>Константы</p>
+                    <pre><code class="python" data-trim>
+                        CONSTANT = 16
+                        MY_CONSTANT = 16
+                        MY_LONG_CONSTANT = "ghfdeqq:432"
+                    </code></pre>
+                </section>
+            </section>
+             <section id="pep">
+                <section>
+                    <p>Философия python. PEP20</p>
+                    <ul>
+                        <li class="fragment">Красивое лучше, чем уродливое.</li>
+                        <li class="fragment">Явное лучше, чем неявное.</li>
+                        <li class="fragment">Простое лучше, чем сложное.</li>
+                        <li class="fragment">Сложное лучше, чем запутанное.</li>
+                        <li class="fragment">Плоское лучше, чем вложенное.</li>
+                        <li class="fragment">Разреженное лучше, чем плотное.</li>
+                        <li class="fragment">Читаемость имеет значение.</li>
+                        <li class="fragment">Особые случаи не настолько особые, чтобы нарушать правила.</li>
+                        <li class="fragment">При этом практичность важнее безупречности.</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li class="fragment">Ошибки никогда не должны замалчиваться.</li>
+                        <li class="fragment">Если они не замалчиваются явно</li>
+                        <li class="fragment">Встретив двусмысленность, отбрось искушение угадать.</li>
+                        <li class="fragment">Должен существовать один и, желательно, только один очевидный способ сделать это.</li>
+                        <li class="fragment">Хотя он поначалу может быть и не очевиден, если вы не голландец [^1].</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li class="fragment">Сейчас лучше, чем никогда.</li>
+                        <li class="fragment">Хотя никогда зачастую лучше, чем прямо сейчас.</li>
+                        <li class="fragment">Если реализацию сложно объяснить — идея плоха.</li>
+                        <li class="fragment">Если реализацию легко объяснить — идея, возможно, хороша.</li>
+                        <li class="fragment">Пространства имён — отличная штука! Будем делать их больше!</li>
+                    </ul>
+                </section>
             </section>
         </div>
     </div>

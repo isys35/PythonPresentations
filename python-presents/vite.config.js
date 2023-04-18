@@ -18,7 +18,7 @@ module.exports = defineConfig({
         targets: [
           {
             src: 'presents/module1/lesson1/code',
-            dest: 'presents/module1/lesson1/code'
+            dest: 'presents/module1/lesson1'
           }
       ]
     })
