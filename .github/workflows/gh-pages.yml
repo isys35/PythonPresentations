@@ -11,22 +11,16 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Github Pages
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 18.x
         cache: 'npm'
         cache-dependency-path: './python-presents/package-lock.json'
-    - run: cd python-presents
-    - run: npm install
-    - run: npm run build
+    - run: cd python-presents && npm install && npm run build
     - run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
     - run: npm run pages -- -u "github-actions-bot <support+actions@github.com>"
       env:
