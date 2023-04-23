@@ -21,6 +21,7 @@ jobs:
         cache: 'npm'
         cache-dependency-path: './python-presents/package-lock.json'
     - run: cd python-presents && npm install && npm run build
+    - run: echo ${GITHUB_REPOSITORY}
     - run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
     - run: npm run pages -- -u "github-actions-bot <support+actions@github.com>"
       env:
