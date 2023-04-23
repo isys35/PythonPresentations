@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h8>{{ module }}</h8>
+                 <h3 style="padding-top: 30px;">{{ topic }}</h3>
+            </section>
+            <section>
+                <h6>План занятия</h6>
+                <ul>
+                    (li>a[href="#/$@1"]{Название темы})*2
+                </ul>
+            </section>
+            section[id="1"]>(section>pre>code.python[data-code="code/$@1.py"])*14
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

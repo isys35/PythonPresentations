@@ -9,7 +9,8 @@ module.exports = defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, 'presents/module1/lesson1/index.html')
+        lesson1_1: resolve(__dirname, 'presents/module1/lesson1/index.html'),
+        lesson1_2: resolve(__dirname, 'presents/module1/lesson2/index.html'),
       }
     },
   },
@@ -19,7 +20,12 @@ module.exports = defineConfig({
           {
             src: 'presents/module1/lesson1/code',
             dest: 'presents/module1/lesson1'
-          }
+          },
+          {
+            src: 'presents/module1/lesson2/code',
+            dest: 'presents/module1/lesson2'
+          },
+
       ]
     })
   ]
