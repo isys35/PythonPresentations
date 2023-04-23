@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Virgil';
+  src:  url('fonts/Virgil.woff2') format('woff2')
+}
+
+:root {
+  --r-main-color: #171717;
+  --r-heading-color: #171717;
+  --r-main-font: Virgil;
+  --r-heading-font: #171717;
+  --r-link-color: #073b56;
+  --r-link-color-hover: #175678;
+}
+
+.reveal-viewport {
+    background: linear-gradient(140deg, rgb(142, 199, 251), rgb(28, 85, 170));
+}
