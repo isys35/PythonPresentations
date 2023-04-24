@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Занятие 1</title>
-  <script type="module" crossorigin src="/PythonPresents/assets/main-20622084.js"></script>
-  <link rel="stylesheet" href="/PythonPresents/assets/main-e97554e8.css">
+  <script type="module" crossorigin src="/PythonPresents/assets/main-2cec9a1c.js"></script>
+  <link rel="stylesheet" href="/PythonPresents/assets/main-2ff7f2a4.css">
 </head>
 <body>
     <div class="reveal">
@@ -28,7 +28,7 @@
             <section id="introduction">
                 <section>
                     <p>Python - интерпретируемый язык программирования со строгой динамической типизацией.</p>
-                    <img src="/PythonPresents/assets/interpritator2-02cd24b7.png" alt="">
+                    <img src="/PythonPresents/assets/1-31cb7b88.png" alt="">
                 </section>
                 <section>
                     <p>3 основных сферы использования языка:</p>
@@ -44,20 +44,21 @@
                 </section>
                 <section>
                     <p>Установка Python (Linux)</p>
-                    <pre><code class="bash">sudo apt-get install python3.11</code></pre>
+                    <img src="/PythonPresents/assets/2-b33ad5e1.png" alt="">
                 </section>
                 <section>
                     <p>REPL (Интерактивная оболочка Python)</p>
                     <img src="/PythonPresents/assets/peek1-f94bf176.gif" alt="">
                 </section>
                 <section>
-                    <p>Выполнение программы</p>
-                    <pre><code class="python" data-code="code/1.py"></code></pre>
-                    <pre><code class="shell" data-code="code/1.sh"></code></pre>
+                    <img src="/PythonPresents/assets/5-0a7a8983.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresents/assets/6-ee5cb909.png" alt="">
                 </section>
                 <section>
                     <p>Исполняемая программа</p>
-                    <pre><code class="python" data-code="code/3.py"></code></pre>
+                    <img src="/PythonPresents/assets/7-5caf0b27.png" alt="">
                 </section>
             </section>
              <section id="ide">
@@ -75,12 +76,7 @@
             </section>
              <section id="pip">
                 <p><b>pip (Package Installer for Python)</b></p>
-                    <pre><code data-trim  data-line-numbers="|1|2|3|">
-                        pip install requests # установка пакета
-                        pip list # список пакетов
-                        pip uninstall requests # удаление пакета
-                    </code>
-                </pre>
+                 <img src="/PythonPresents/assets/8-09c5ce9d.png" alt="">
              </section>
             <section id="poetry">
                 <section>
@@ -89,87 +85,56 @@
                 </section>
                 <section>
                     <p>Создание виртуального окружения с помощью <b>venv</b></p>
-                    <pre><code data-trim  data-line-numbers="|1|2|3|4|">
-                        mkdir lesson1
-                        cd project
-                        python -m venv venv
-                        venv\Scripts\activate.bat
-                    </code></pre>
+                    <img src="/PythonPresents/assets/9-6e6b09a9.png" alt="">
                 </section>
                 <section>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAd0AAAAfCAIAAAAtCIAyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARqSURBVHhe7ZrRcRs7DEVdQNRBPlOCe3Eb/nIjrkR9uJX0EIAAQSwIUrKjXVPyPZOZkCAXALHE1U7ee/oFAABgJaDLAACwFtBlAABYC+gyAACsBXQZAADWAroMAABrAV0GAIC1gC4DAMBaQJcBAGAtoMsAALAWT39//1nzjyYIAAA/DNZlHa4EdBkA8GOBLgMAwFpAlwEAYC2gywAAsBbQZQAAWAvoMgAArMVGl0/Pb+fz2/PppPOdOdV4OnfcRJdf3j/Iu04WYJJPKcUHLx9V/AmjPEuKhfcXNQEAdqDp8ulE/Ugdd6gu1Jgx6EiXy37louamPzNFAFvEcmreJNNdmfzs7arLrmabojWdLdjSJE9C6qcTAMAONF0WfZLxkaR9nuqySVedvs/1VMQu/NJ8py5n+RxJ+OmlbNI3Ps9T1nTyrdRX9231BGAnVJeDWhHF0gQrTNsnWG2M2sy2opvnfohUGXtdnn/Oj743+9bVNKvFR1cnFR/LTuW90W6a2TM0FvvETyolbfdW71I/xaYJh+kkriHxZUy7bRxI8xQ4RqfLaX1G+VxnJzPbxdjfK6FYdScAD4Pqct9s0g++h63luBnqZhvXptK2MYcTPwY5sQ1CosvicdCBGr3z3It+8OM3yIrYPel5iRJSg9ZTzvwQ6Y+Q0D+V+knq6fMZxBXC2WlmfgKfynNWnyyf1D66J/pmazL9s2U5TxWAO4V1ObSEEXqDGpqMoWOt1f0etuuu2kudH49t0Hmqy9LxW9m9BgmpE5ewTt1xeKULMTovjX3aF/0Y4kAnjt4+8mO1DfWcxOXiFeg5Nen+Sj2I0ecjBPuF+mT5pPbRe5ncK4ONxaPOAbhzmi7317r0BreK75kyDlzon9SPp2+2G+pyCBqnNbZM2+Gq9IzOq5sz5SJ6P8aoCKm31E/TLFre1m0SV5Aq6sTB9q2rK/Oc1IcY5dPbwx1od6UO1L7dJmgOnR2AO2X2vUxQF3BvlL/EEoTMmPdP78cjT+qkkOgyP9z8fwrJRcbW7zrNjiNnkZRG5yX6tAPej8fnY0y89X7EA1l7P8QoLhHei1Gru7Ffk+ekPsYon02dxW/3XmSPvfc+/+LiQgIA3BfDf18WuA34v7ls7j3Z+s3z/kn9GLJXJ4VelwmO6zrQ//8Y2uEuoscnI/pu4fix7ClfEH4gK86oaJ50TyiOMPcWVstxz+dzVFIjjytVut5+XZ6j+njSfAizSw72XvQlkSwX++he8TZezIsAwJ2iulwvf7zfqd6p0XB9NdTlzI+QfnClukz4wPSMWqf+iZgbR6zUR+KhnKu4VPVFnMrYmPgxfD5xP+Hq2dj60VUXfbQ/2Mmc7je7R/bM80yWpvmP7GVp+F7SexXuGAAPg+oyIZdcxkcibaeTykiXv8xqPfyf+QS12g9oHwDH03RZvlYOaHVPjRmD3lyXHwxWZcglAA9K02WCP8IO7Pby0cfxdO6ALo9gRWaSHzMAwGPAuvy6HmtmBQAAu/P6+g/f9UQKb4xbBwAAAABJRU5ErkJggg==" alt="" width="800">
-                    <p>Обозначение на скриншоте сверху говорит о том, что виртуальное окружение активировано.</p>
+                    <p>Активация виртуального окружения</p>
+                    <img src="/PythonPresents/assets/10-a4f5883c.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresents/assets/11-92770ee4.png" alt="">
                 </section>
                 <section>
                     <p>Работа с poetry</p>
                     <a href="https://python-poetry.org/docs/">Официальный сайт</a>
+                </section>
+                <section>
                     <p>Основные комманды:</p>
-                    <pre><code data-trim>
-                        poetry new poetry-demo # Создание проекта poetry-demo
-                        poetry init # Создание в уже существующем проекте
-                        poetry shell # Активация виртуальной среды
-                        deactivate # Деактивация виртуальной среды
-                    </code></pre>
+                    <img src="/PythonPresents/assets/12-3912a0b0.png" alt="">
                 </section>
                 <section>
                     <p>Работа с зависимостями в poetry:</p>
-                    <pre><code data-trim>
-                        poetry add requests # установка библиотеки
-                        poetry install # для установики зависимостей проекта
-                        poetry update # для обновления версий зависимостей
-                        poetry show # просмотр зависимостей проекта
-                    </code></pre>
+                    <img src="/PythonPresents/assets/13-74725298.png" alt="">
                 </section>
                 <section>
                     <p>Создание виртуальных окружений с помощью PyCharm</p>
-                    <img src="/PythonPresents/assets/pycharmpoetry-db07e2b1.png" alt="" width="600">
+                    <img src="/PythonPresents/assets/14-03ae867e.png" alt="" width="600">
+                </section>
+                <section>
+                    <img src="/PythonPresents/assets/15-9c8fcd73.png" alt="" width="600">
                 </section>
             </section>
             <section id="structure">
                 <section>
                     <p>Стили наименований</p>
                     <p>Функции</p>
-                    <pre><code class="python" data-trim>
-                            def function():
-                                pass
-
-                            def my_function():
-                                pass
-                        </code></pre>
+                    <img src="/PythonPresents/assets/16-7c320071.png" alt="">
                 </section>
                 <section>
                     <p>Переменные</p>
-                    <pre><code class="python" data-trim>
-                        var = 16
-                        my_variable = "variable"
-                    </code></pre>
+                    <img src="/PythonPresents/assets/17-6ac5d0f3.png" alt="">
+                </section>
+                <section>
                     <p>Классы</p>
-                    <pre><code class="python" data-trim>
-                        class Model:
-                            pass
-
-
-                        class MyClass:
-                            pass
-                    </code></pre>
+                    <img src="/PythonPresents/assets/18-6edddd0d.png" alt="">
                 </section>
                 <section>
                     <p>Методы</p>
-                    <pre><code class="python" data-trim>
-                        class Model:
-
-                            def class_method(self):
-                                pass
-
-                            def method(self, name):
-                                pass
-                    </code></pre>
+                    <img src="/PythonPresents/assets/19-a0f7a4b9.png" alt="">
+                </section>
+                <section>
                     <p>Константы</p>
-                    <pre><code class="python" data-trim>
-                        CONSTANT = 16
-                        MY_CONSTANT = 16
-                        MY_LONG_CONSTANT = "ghfdeqq:432"
-                    </code></pre>
+                    <img src="/PythonPresents/assets/20-78269916.png" alt="">
                 </section>
             </section>
              <section id="pep">
