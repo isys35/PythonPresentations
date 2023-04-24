@@ -12,6 +12,7 @@ module.exports = defineConfig({
         lesson1_1: resolve(__dirname, 'presents/module1/lesson1/index.html'),
         lesson1_2: resolve(__dirname, 'presents/module1/lesson2/index.html'),
         lesson1_3_4: resolve(__dirname, 'presents/module1/lesson3-4/index.html'),
+        lesson1_5: resolve(__dirname, 'presents/module1/lesson5/index.html'),
       }
     },
   },
