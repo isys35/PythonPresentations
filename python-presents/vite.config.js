@@ -14,19 +14,4 @@ module.exports = defineConfig({
       }
     },
   },
-  plugins: [
-      viteStaticCopy({
-        targets: [
-          {
-            src: 'presents/module1/lesson1/code',
-            dest: 'presents/module1/lesson1'
-          },
-          {
-            src: 'presents/module1/lesson2/code',
-            dest: 'presents/module1/lesson2'
-          },
-
-      ]
-    })
-  ]
 })
