@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: 18.x
         cache: 'npm'
-        cache-dependency-path: './python-presents/package-lock.json'
+        cache-dependency-path: './python-presentations/package-lock.json'
     - run: |
           cd python-presents && 
           npm install &&
