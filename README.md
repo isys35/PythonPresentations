@@ -9,6 +9,7 @@
 - [Занятие 5. Работа со с строками. Операторы ветвления](https://isys35.github.io/PythonPresentations/presentations/module1/lesson5/index.html)
 - [Занятие 6. Коллекции Python.](https://isys35.github.io/PythonPresentations/presentations/module1/lesson6/index.html)
 - [Занятие 7. Циклы.](https://isys35.github.io/PythonPresentations/presentations/module1/lesson7/index.html)
+- [Занятие 8. Импорты. Исключения ](https://isys35.github.io/PythonPresentations/presentations/module1/lesson8/index.html)
 
 [Старая версия презентаций.](https://isys35.github.io/pypresents/)
 
