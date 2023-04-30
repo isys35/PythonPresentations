@@ -8,6 +8,7 @@
 - [Занятие 3-4. Система контроля версий Git.](https://isys35.github.io/PythonPresents/presents/module1/lesson3-4/index.html)
 - [Занятие 5. Работа со с строками. Операторы ветвления](https://isys35.github.io/PythonPresents/presents/module1/lesson5/index.html)
 - [Занятие 6. Коллекции Python.](https://isys35.github.io/PythonPresents/presents/module1/lesson6/index.html)
+- [Занятие 7. Циклы.](https://isys35.github.io/PythonPresents/presents/module1/lesson7/index.html)
 
 [Старая версия презентаций.](https://isys35.github.io/pypresents/)
 
