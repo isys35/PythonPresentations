@@ -10,6 +10,7 @@
 - [Занятие 6. Коллекции Python.](https://isys35.github.io/PythonPresentations/presentations/module1/lesson6/index.html)
 - [Занятие 7. Циклы.](https://isys35.github.io/PythonPresentations/presentations/module1/lesson7/index.html)
 - [Занятие 8. Импорты. Исключения ](https://isys35.github.io/PythonPresentations/presentations/module1/lesson8/index.html)
+- [Занятие 9-10. Функции, аргументы.](https://isys35.github.io/PythonPresentations/presentations/module1/lesson9-10/index.html)
 
 [Старая версия презентаций.](https://isys35.github.io/pypresents/)
 
