@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Занятие 12-13</title>
+  <script type="module" crossorigin src="/PythonPresentations/assets/main-d2141bbe.js"></script>
+  <link rel="stylesheet" href="/PythonPresentations/assets/main-d75bd766.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h8>Модуль 1. Синтаксис Python и основные инструменты разработки</h8>
+                 <h3 style="padding-top: 30px;">Занятие 12-13. Введение в ООП. Классы. Объекты. Строки документации. Аннотация типов.</h3>
+            </section>
+            <section>
+                <h6>План занятия</h6>
+                <ul>
+                    <li><a href="#/1">Введение в ООП.</a></li>
+                    <li><a href="#/2">Понятие класса. Создание класса (class).</a></li>
+                    <li><a href="#/3">Понятие объекта класса.(self)</a></li>
+                    <li><a href="#/4">Атрибуты класса.</a></li>
+                    <li><a href="#/5">Методы. Статические методы и методы класса.</a></li>
+                    <li><a href="#/6">Модификаторы доступа.</a></li>
+                    <li><a href="#/7">Магические методы класса.</a></li>
+                    <li><a href="#/8">Строки документации.</a></li>
+                    <li><a href="#/9">Аннотация типов</a></li>
+                </ul>
+            </section>
+            <section id="1">
+                <section>
+                    <p>ООП на примере "Будильника"</p>
+                </section>
+                <section>
+                    <p>Атрибуты</p>
+                    <ul>
+                        <li>current_ second</li>
+                        <li>current_minute</li>
+                        <li>current_hour</li>
+                        <li>alarm_time</li>
+                        <li>alarm_is_set</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>Публичные методы</p>
+                    <ul>
+                        <li>set_time()</li>
+                        <li>set_alarm_time()</li>
+                        <li>set_alarm_on()</li>
+                        <li>set_alarm_off()</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>Приватные методы</p>
+                    <ul>
+                        <li>incrernent_ current_second()</li>
+                        <li>incrernent current_minute()</li>
+                        <li>increment_current_hour()</li>
+                        <li>sound_alarm()</li>
+                    </ul>
+                </section>
+            </section>
+            <section id="2">
+                <section>
+                    <img src="/PythonPresentations/assets/1-2eb1d4e3.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/2-a5b3d059.png" width="480" alt="">
+                </section>
+            </section>
+            <section id="3">
+                <section>
+                    <img src="/PythonPresentations/assets/3-5bcb34a4.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/4-40c6ae03.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/5-a74ccb0e.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/6-86a1a0c3.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/7-cc323a72.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/8-ecfefd63.png" width="480" alt="">
+                </section>
+            </section>
+            <section id="4">
+                <section>
+                    <img src="/PythonPresentations/assets/9-e08f9a09.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/10-1d221d75.png" width="480" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/11-4deb1453.png" width="480" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/12-8b974770.png" width="480" alt="">
+                </section>
+            </section>
+            <section id="5">
+                <section>
+                    <img src="/PythonPresentations/assets/13-00fa79f5.png" alt="">
+                </section>
+            </section>
+            <section id="6">
+                <section>
+                    <ul>
+                        <li>public</li>
+                        <li>private</li>
+                        <li>protected</li>
+                    </ul>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/14-c5d9214f.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/15-b65d73a4.png" alt="">
+                </section>
+            </section>
+            <section id="7">
+                <section>
+                    <p>Магические методы</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/16-98748f84.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/17-5236de6b.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/18-6586ab56.png" alt="">
+                </section>
+                <section>
+                    <p>Магические атрибуты</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/19-04f704fe.png" width="480" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/20-59ed0bb9.png" alt="">
+                </section>
+            </section>
+            <section id="8">
+                <section>
+                    <img src="/PythonPresentations/assets/21-06bb6be3.png" width="480" alt="">
+                </section>
+            </section>
+            <section id="9">
+                <section>
+                    <img src="/PythonPresentations/assets/22-7068a5b5.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/23-d2e2c0c2.png" alt="">
+                </section>
+                <section>
+                    <p>Any</p>
+                    <img src="/PythonPresentations/assets/24-f75fb3f1.png" alt="">
+                </section>
+                <section>
+                    <p>Literal</p>
+                    <img src="/PythonPresentations/assets/25-b89331fa.png" alt="">
+                </section>
+                <section>
+                    <p>Union</p>
+                    <img src="/PythonPresentations/assets/26-fb765c26.png" alt="">
+                </section>
+                <section>
+                    <p>Final</p>
+                    <img src="/PythonPresentations/assets/27-a5186a3f.png" width="480" alt="">
+                </section>
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
