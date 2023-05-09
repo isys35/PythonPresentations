@@ -15,3 +15,7 @@
 .reveal-viewport {
     background: linear-gradient(140deg, rgb(142, 199, 251), rgb(28, 85, 170));
 }
+
+.reveal img {
+  max-height: 600px;
+}
