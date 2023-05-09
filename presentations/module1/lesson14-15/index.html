@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Занятие 14-15</title>
+  <script type="module" crossorigin src="/PythonPresentations/assets/main-c3a640a7.js"></script>
+  <link rel="stylesheet" href="/PythonPresentations/assets/main-2ef3c7d8.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h8>Модуль 1. Синтаксис Python и основные инструменты разработки</h8>
+                 <h3 style="padding-top: 30px;">Занятие 14-15. Объектно-ориентированное программирование.</h3>
+            </section>
+            <section>
+                <h6>План занятия</h6>
+                <ul>
+                    <li><a href="#/1">ООП. Принципы ООП.</a></li>
+                    <li><a href="#/2">Ассоциация</a></li>
+                    <li><a href="#/3">Наследование</a></li>
+                    <li><a href="#/4">Инкапсуляция</a></li>
+                    <li><a href="#/5">Полиморфизм</a></li>
+                    <li><a href="#/6">Сетеры и гетеры. Property</a></li>
+                    <li><a href="#/7">super</a></li>
+                    <li><a href="#/8">Diamond problem. MRO.</a></li>
+                    <li><a href="#/9">Абстрактные классы (модуль abc).</a></li>
+                    <li><a href="#/10">Метаклассы</a></li>
+                </ul>
+            </section>
+            <section id="1">
+                <section>
+                    <p>Принципы</p>
+                    <ul>
+                        <li>Абстракция</li>
+                        <li>Полиморфизм</li>
+                        <li>Наследование</li>
+                        <li>Инкапсуляция</li>
+                    </ul>
+                </section>
+            </section>
+            <section id="2">
+                <section>
+                    <p>Ассоцияация(Композиция, Аггрегация)</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/1-4b6cd153.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/2-d43775cc.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/3-a770f195.png" alt="">
+                </section>
+            </section>
+            <section id="3">
+                <section>
+                    <p>Наследование</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/4-869c1a8e.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/5-05496246.png" alt="">
+                </section>
+                <section>
+                    <p>Расширение метода</p>
+                    <img src="/PythonPresentations/assets/6-3f2ce53b.png" alt="">
+                </section>
+                <section>
+                    <p>Можно так</p>
+                    <img src="/PythonPresentations/assets/7-722c8444.png" alt="">
+                </section>
+                <section>
+                    <p>Но лучше так</p>
+                    <img src="/PythonPresentations/assets/8-fdb3af20.png" alt="">
+                </section>
+            </section>
+            <section id="4">
+                <section>
+                    <p>Инкапсуляция</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/9-bc1eda6d.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/10-569599b4.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/11-fc77871a.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/12-3960c339.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/13-8942276d.png" alt="">
+                </section>
+            </section>
+            <section id="5">
+                <section>
+                    <p>Полиморфизм</p>
+                </section>
+                <section>
+                    <p>Полиморфизм оператора сложения</p>
+                    <img src="/PythonPresentations/assets/14-c689001c.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/15-0a382824.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/16-47da745a.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/17-1f7825de.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/18-e49704b9.png" alt="">
+                </section>
+            </section>
+            <section id="6">
+                <section>
+                    <p>Что такое геттер?</p>
+                </section>
+                <section>
+                    <p>Что такое сеттер?</p>
+                </section>
+                <section>
+                    <p>Для чего нужны?</p>
+                </section>
+                <section>
+                    <p>Использование обычных функций</p>
+                    <img src="/PythonPresentations/assets/19-f38177b9.png" alt="">
+                </section>
+                <section>
+                    <p>Использование property</p>
+                    <img src="/PythonPresentations/assets/20-fbf31c53.png" alt="">
+                </section>
+                <section>
+                    <p>Декоратор @property</p>
+                    <img src="/PythonPresentations/assets/21-97dedc7e.png" alt="">
+                </section>
+            </section>
+            <section id="7">
+                <section>
+                    <p>super()</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/22-23756134.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/23-900115fd.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/24-98c4eb59.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/25-9078e06e.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/26-1ac50196.png" alt="">
+                </section>
+                <section>
+                    <p>Учитывай MRO</p>
+                    <img src="/PythonPresentations/assets/27-1dbbcd0f.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/29-50930d71.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/30-1062c24e.png" alt="">
+                </section>
+            </section>
+            <section id="8">
+                <section>
+                    <p>Diamond-problem</p>
+                    <img src="/PythonPresentations/assets/31-a8854e34.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/32-b8ee9702.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/33-57854949.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/34-36937c61.png" alt="">
+                </section>
+                <section>
+                    <p>MRO2 и MRO3</p>
+                </section>
+                <section>
+                    <p>__mro__ и mro() для получения порядка MRO</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/35-d0ce49f4.png" alt="">
+                </section>
+            </section>
+            <section id="9">
+                <section>
+                    <p>Абстрактные классы</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/36-e93475ce.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/37-416cc1d7.png" alt="">
+                    <p>Hero()– выдаст ошибку</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/38-a62fe4b6.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/39-d55e9edc.png" alt="">
+                </section>
+            </section>
+            <section id="10">
+                <section>
+                    <img src="/PythonPresentations/assets/40-ed160c27.png" alt="">
+                </section>
+                <section>
+                    <p>Какой тип у классов</p>
+                    <img src="/PythonPresentations/assets/41-70e4937f.png" alt="">
+                </section>
+                <section>
+                    <p>С классом можно работать как с объектом</p>
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/42-d3649cc0.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/43-2d9da4ab.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/44-9cfc2140.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/45-779b140b.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/46-fa42f21a.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/47-dfea5e2a.png" alt="">
+                </section>
+                <section>
+                    <p>Singletone</p>
+                    <img src="/PythonPresentations/assets/48-d5fd1b2d.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/49-ffba2a75.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/50-39af8461.png" alt="">
+                </section>
+                <section>
+                    <img src="/PythonPresentations/assets/51-bd859b7b.png" alt="">
+                </section>
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
