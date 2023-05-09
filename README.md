@@ -13,6 +13,8 @@
 - [Занятие 9-10. Функции, аргументы.](https://isys35.github.io/PythonPresentations/presentations/module1/lesson9-10/index.html)
 - [Занятие 11. Итераторы, генераторы, менеджер контекста.](https://isys35.github.io/PythonPresentations/presentations/module1/lesson11/index.html)
 - [Занятие 12-13. Введение в ООП. Классы. Объекты. Строки документации. Аннотация типов.](https://isys35.github.io/PythonPresentations/presentations/module1/lesson12-13/index.html)
+- [Занятие 14-15. Объектно-ориентированное программирование.](https://isys35.github.io/PythonPresentations/presentations/module1/lesson14-15/index.html)
+
 
 
 [Старая версия презентаций.](https://isys35.github.io/pypresents/)
